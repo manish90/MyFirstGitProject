@@ -26,7 +26,7 @@ public class EmployeeController {
 	@RequestMapping(value="/testMyService" , method = RequestMethod.GET)
 	public @ResponseBody String testService() {
 		System.out.println("value : "+name);
-		return "hello service : " +name;
+		return "hello service test : " +name;
 		
 	}
 	
